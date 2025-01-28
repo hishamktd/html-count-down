@@ -1,13 +1,6 @@
 # html-count-down
 
 <style>
-.countdown-container {
-  display: flex;
-  height:60vh;
-  justify-content: center;
-  align-items: center;
-}
-
 .countdown-circle {
   width: 200px;
   height: 200px;
@@ -43,7 +36,10 @@
 
 </style>
 
-<div class="countdown-container">
+<div style="display: flex;
+  height:60vh;
+  justify-content: center;
+  align-items: center;">
     <div class="countdown-circle">
         <div class="countdown-text" id="countdown">
         <div class="number"></div>
