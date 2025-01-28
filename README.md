@@ -42,7 +42,7 @@
     content:"60";
      animation: countdown-number 60s steps(60) forwards;
 }
-
+/* 
 @keyframes countdown {
   from {
     background: conic-gradient(#61dafb 0deg, transparent 0deg);
@@ -50,8 +50,8 @@
   to {
     background: conic-gradient(#61dafb 360deg, transparent 360deg);
   }
-}
-
+} */
+/* 
 @keyframes countdown-number {
   0% {
     content: "60";
@@ -236,7 +236,7 @@
   100% {
     content: "0";
   }
-}
+} */
 
 </style>
 
